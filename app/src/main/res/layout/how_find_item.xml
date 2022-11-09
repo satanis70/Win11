@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#615A5A"
+    android:layout_marginTop="18dp"
+    android:layout_margin="18dp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/name_advice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:textSize="22sp"
+        android:gravity="center"
+        android:text="The Horses Form"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></TextView>
+
+    <TextView
+        android:id="@+id/advice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="14dp"
+        android:layout_marginTop="12dp"
+        android:text="This is basically how the horse has performed in its previous races. A horses’ form will give you a pretty accurate gauge of its natural ability and how it is running at the moment. You should ask questions such as, ‘has it been running well in hard races or losing in easy races?’, ‘is the opposition today easier or harder than last time?’ and “is the horse improving?”. Asking these questions and looking at previous runs overall, will give you a good indication of its talent. Most of the time it’s good to back a horse “in-form” or one you think is hitting form."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name_advice"></TextView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
